@@ -221,3 +221,190 @@ const AccountantRequestSchema = new mongoose.Schema({
 module.exports = mongoose.model('AccountantRequest', AccountantRequestSchema);
 
 ```
+
+---
+
+## 6. Setup Instructions
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- MongoDB Atlas account
+- Postman (for API testing)
+
+### Installation Steps
+
+1. **Clone the repository** (or navigate to project directory)
+   ```bash
+   cd BINF
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables**
+   - Copy `.env.example` to `.env`
+   ```bash
+   cp .env.example .env
+   ```
+   - Update `.env` with your MongoDB Atlas connection string and JWT secret
+
+4. **Start the server**
+   ```bash
+   # Development mode (with auto-restart)
+   npm run dev
+
+   # Production mode
+   npm start
+   ```
+
+5. **Verify server is running**
+   - Open browser and navigate to `http://localhost:5000`
+   - You should see the welcome message with API endpoints
+
+---
+
+## 7. API Documentation
+
+### Base URL
+```
+http://localhost:5000/api
+```
+
+### Authentication Endpoints
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/auth/register` | Register new user | No |
+| POST | `/auth/login` | Login user | No |
+
+### User Profile Endpoints
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/users/profile` | Get user profile | Yes |
+| PUT | `/users/profile` | Update user profile | Yes |
+
+### Transaction Endpoints
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/transactions` | Create transaction | Yes |
+| GET | `/transactions` | Get all transactions (with filters) | Yes |
+| GET | `/transactions/:id` | Get transaction by ID | Yes |
+| PUT | `/transactions/:id` | Update transaction | Yes |
+| DELETE | `/transactions/:id` | Delete transaction | Yes |
+
+**Query Parameters for GET /transactions:**
+- `type` - Filter by income/expense
+- `category` - Filter by category
+- `startDate` - Filter by start date (YYYY-MM-DD)
+- `endDate` - Filter by end date (YYYY-MM-DD)
+
+### Summary Endpoints
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET | `/summary/monthly` | Get monthly summary | Yes |
+| GET | `/summary/tax` | Get tax estimate | Yes |
+
+**Query Parameters:**
+- `month` - Month number (1-12)
+- `year` - Year (e.g., 2025)
+
+### Accountant Request Endpoints
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/accountant/requests` | Create consultation request | Yes |
+| GET | `/accountant/requests` | Get user's requests | Yes |
+| GET | `/accountant/requests/:id` | Get request by ID | Yes |
+| PUT | `/accountant/requests/:id` | Update request status | Yes |
+| GET | `/accountant/requests/all` | Get all requests (accountant/admin) | Yes (accountant/admin) |
+
+---
+
+## 8. Testing with Postman
+
+### Import Postman Collection
+
+1. Open Postman
+2. Click **Import** button
+3. Select the file: `postman/MasrLedger_API.postman_collection.json`
+4. The collection will be imported with all endpoints
+
+### Testing Workflow
+
+1. **Register a new user**
+   - Use the "Register User" request
+   - The token will be automatically saved
+
+2. **Login** (if needed)
+   - Use the "Login User" request
+   - Token will be updated
+
+3. **Test protected endpoints**
+   - All other requests use the saved token automatically
+   - Create transactions, view summaries, etc.
+
+### Collection Variables
+
+The collection uses these variables (auto-populated):
+- `baseUrl` - API base URL
+- `token` - JWT authentication token
+- `userId` - Current user ID
+- `transactionId` - Last created transaction ID
+- `requestId` - Last created request ID
+
+---
+
+## 9. Project Structure
+
+```
+BINF/
+├── config/
+│   └── database.js          # MongoDB connection
+├── controllers/
+│   ├── authController.js    # Authentication logic
+│   ├── userController.js    # User profile logic
+│   ├── transactionController.js  # Transaction CRUD
+│   ├── summaryController.js # Monthly summary & tax
+│   └── accountantController.js   # Consultation requests
+├── middleware/
+│   ├── auth.js              # JWT authentication
+│   └── errorHandler.js      # Error handling
+├── models/
+│   ├── User.js              # User schema
+│   ├── Transaction.js       # Transaction schema
+│   └── AccountantRequest.js # Accountant request schema
+├── routes/
+│   ├── auth.js              # Auth routes
+│   ├── users.js             # User routes
+│   ├── transactions.js      # Transaction routes
+│   ├── summary.js           # Summary routes
+│   └── accountant.js        # Accountant routes
+├── postman/
+│   └── MasrLedger_API.postman_collection.json
+├── .env.example             # Environment variables template
+├── .gitignore
+├── package.json
+├── server.js                # Main application entry
+└── README.md
+```
+
+---
+
+## 10. Milestone 1 Completion Checklist
+
+- [x] Backend Setup: Express server created
+- [x] Database Connection: MongoDB Atlas integration
+- [x] Mongoose Models: User, Transaction, AccountantRequest
+- [x] API Endpoints: All 6 use cases implemented
+- [x] CRUD Operations: Full CRUD for User and Transaction
+- [x] Authentication: JWT-based auth with bcrypt
+- [x] Testing: Postman collection created
+- [x] Documentation: API endpoints documented
+
+---

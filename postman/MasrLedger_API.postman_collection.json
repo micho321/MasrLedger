@@ -1,0 +1,722 @@
+{
+    "info": {
+        "_postman_id": "masrledger-api-collection",
+        "name": "MasrLedger API",
+        "description": "Complete API collection for MasrLedger financial management platform",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Authentication",
+            "item": [
+                {
+                    "name": "Register User",
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "if (pm.response.code === 201) {",
+                                    "    const jsonData = pm.response.json();",
+                                    "    pm.collectionVariables.set('token', jsonData.data.token);",
+                                    "    pm.collectionVariables.set('userId', jsonData.data.user.id);",
+                                    "}"
+                                ],
+                                "type": "text/javascript"
+                            }
+                        }
+                    ],
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"username\": \"testuser\",\n  \"email\": \"testuser@example.com\",\n  \"password\": \"password123\",\n  \"businessType\": \"freelancer\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/auth/register",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "auth",
+                                "register"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Login User",
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "if (pm.response.code === 200) {",
+                                    "    const jsonData = pm.response.json();",
+                                    "    pm.collectionVariables.set('token', jsonData.data.token);",
+                                    "    pm.collectionVariables.set('userId', jsonData.data.user.id);",
+                                    "}"
+                                ],
+                                "type": "text/javascript"
+                            }
+                        }
+                    ],
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"email\": \"testuser@example.com\",\n  \"password\": \"password123\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/auth/login",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "auth",
+                                "login"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "User Profile",
+            "item": [
+                {
+                    "name": "Get Profile",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/users/profile",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "users",
+                                "profile"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update Profile",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"username\": \"updateduser\",\n  \"businessType\": \"micro-business\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/users/profile",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "users",
+                                "profile"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Transactions",
+            "item": [
+                {
+                    "name": "Create Transaction",
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "if (pm.response.code === 201) {",
+                                    "    const jsonData = pm.response.json();",
+                                    "    pm.collectionVariables.set('transactionId', jsonData.data._id);",
+                                    "}"
+                                ],
+                                "type": "text/javascript"
+                            }
+                        }
+                    ],
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"amount\": 5000,\n  \"type\": \"income\",\n  \"category\": \"Project Payment\",\n  \"date\": \"2025-12-10\",\n  \"notes\": \"Payment for web development project\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Create Expense Transaction",
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"amount\": 1500,\n  \"type\": \"expense\",\n  \"category\": \"Software Subscription\",\n  \"date\": \"2025-12-05\",\n  \"notes\": \"Adobe Creative Cloud subscription\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get All Transactions",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Transactions by Type",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions?type=income",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions"
+                            ],
+                            "query": [
+                                {
+                                    "key": "type",
+                                    "value": "income"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Transactions by Date Range",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions?startDate=2025-12-01&endDate=2025-12-31",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions"
+                            ],
+                            "query": [
+                                {
+                                    "key": "startDate",
+                                    "value": "2025-12-01"
+                                },
+                                {
+                                    "key": "endDate",
+                                    "value": "2025-12-31"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Transaction by ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions/{{transactionId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions",
+                                "{{transactionId}}"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update Transaction",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"amount\": 5500,\n  \"notes\": \"Updated payment amount\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions/{{transactionId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions",
+                                "{{transactionId}}"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Delete Transaction",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/transactions/{{transactionId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "transactions",
+                                "{{transactionId}}"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Monthly Summary & Tax",
+            "item": [
+                {
+                    "name": "Get Monthly Summary",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/summary/monthly",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "summary",
+                                "monthly"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Monthly Summary (Specific Month)",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/summary/monthly?month=12&year=2025",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "summary",
+                                "monthly"
+                            ],
+                            "query": [
+                                {
+                                    "key": "month",
+                                    "value": "12"
+                                },
+                                {
+                                    "key": "year",
+                                    "value": "2025"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Tax Estimate",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/summary/tax",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "summary",
+                                "tax"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Tax Estimate (Specific Month)",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/summary/tax?month=12&year=2025",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "summary",
+                                "tax"
+                            ],
+                            "query": [
+                                {
+                                    "key": "month",
+                                    "value": "12"
+                                },
+                                {
+                                    "key": "year",
+                                    "value": "2025"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Accountant Requests",
+            "item": [
+                {
+                    "name": "Create Consultation Request",
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "if (pm.response.code === 201) {",
+                                    "    const jsonData = pm.response.json();",
+                                    "    pm.collectionVariables.set('requestId', jsonData.data._id);",
+                                    "}"
+                                ],
+                                "type": "text/javascript"
+                            }
+                        }
+                    ],
+                    "request": {
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"topic\": \"Tax filing assistance for 2025\",\n  \"preferredDate\": \"2025-12-20\",\n  \"notes\": \"Need help with annual tax calculations and filing\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/accountant/requests",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "accountant",
+                                "requests"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get My Requests",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/accountant/requests",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "accountant",
+                                "requests"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get My Pending Requests",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/accountant/requests?status=pending",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "accountant",
+                                "requests"
+                            ],
+                            "query": [
+                                {
+                                    "key": "status",
+                                    "value": "pending"
+                                }
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Request by ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/accountant/requests/{{requestId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "accountant",
+                                "requests",
+                                "{{requestId}}"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Update Request Status",
+                    "request": {
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            },
+                            {
+                                "key": "Content-Type",
+                                "value": "application/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n  \"status\": \"accepted\",\n  \"accountantResponse\": \"Request accepted. Will contact you soon.\"\n}"
+                        },
+                        "url": {
+                            "raw": "{{baseUrl}}/accountant/requests/{{requestId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "accountant",
+                                "requests",
+                                "{{requestId}}"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get All Requests (Accountant/Admin)",
+                    "request": {
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {{token}}"
+                            }
+                        ],
+                        "url": {
+                            "raw": "{{baseUrl}}/accountant/requests/all",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "accountant",
+                                "requests",
+                                "all"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        }
+    ],
+    "variable": [
+        {
+            "key": "baseUrl",
+            "value": "http://localhost:5000/api",
+            "type": "string"
+        },
+        {
+            "key": "token",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "key": "userId",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "key": "transactionId",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "key": "requestId",
+            "value": "",
+            "type": "string"
+        }
+    ]
+}
