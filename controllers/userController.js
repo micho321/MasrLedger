@@ -59,3 +59,19 @@ exports.updateProfile = async (req, res, next) => {
         next(error);
     }
 };
+// @desc    Get all users (Admin only)
+// @route   GET /api/users
+// @access  Private (Admin)
+exports.getAllUsers = async (req, res, next) => {
+    try {
+        const users = await User.find().select('-password').sort({ createdAt: -1 });
+
+        res.status(200).json({
+            success: true,
+            count: users.length,
+            data: users,
+        });
+    } catch (error) {
+        next(error);
+    }
+};

@@ -1,4 +1,14 @@
 const Transaction = require('../models/Transaction');
+const User = require('../models/User'); // Explicitly require for population
+const fs = require('fs');
+const path = require('path');
+
+// Helper for persistent logging since we can't always see terminal
+const logToFile = (msg) => {
+    const logPath = path.join(__dirname, '../debug_log.txt');
+    const timestamp = new Date().toISOString();
+    fs.appendFileSync(logPath, `[${timestamp}] ${msg}\n`);
+};
 
 // @desc    Create new transaction
 // @route   POST /api/transactions
@@ -20,15 +30,20 @@ exports.createTransaction = async (req, res, next) => {
     }
 };
 
-// @desc    Get all transactions for user with filters
-// @route   GET /api/transactions
-// @access  Private
 exports.getAllTransactions = async (req, res, next) => {
     try {
         const { type, category, startDate, endDate } = req.query;
 
+        // More robust role check
+        const userRole = req.user && req.user.role ? req.user.role.toString().toLowerCase() : '';
+        const isAdmin = userRole === 'admin';
+
         // Build query
-        const query = { user: req.user.id };
+        const query = isAdmin ? {} : { user: req.user.id };
+
+        const logMsg = `GET /api/transactions - User: ${req.user.username}, Role: ${req.user.role}, isAdmin: ${isAdmin}, base query: ${JSON.stringify(query)}`;
+        console.log(logMsg);
+        logToFile(logMsg);
 
         if (type) {
             query.type = type;
@@ -48,14 +63,33 @@ exports.getAllTransactions = async (req, res, next) => {
             }
         }
 
-        const transactions = await Transaction.find(query).sort({ date: -1 });
+        console.log(`Final Query: ${JSON.stringify(query)}`);
+        logToFile(`Final Query: ${JSON.stringify(query)}`);
+
+        let transactions;
+        if (isAdmin) {
+            transactions = await Transaction.find(query).sort({ date: -1 }).populate({
+                path: 'user',
+                select: 'username email'
+            });
+        } else {
+            transactions = await Transaction.find(query).sort({ date: -1 });
+        }
+
+        const foundMsg = `Found ${transactions.length} transactions for user ${req.user.username}`;
+        console.log(foundMsg);
+        logToFile(foundMsg);
 
         res.status(200).json({
             success: true,
             count: transactions.length,
+            debug_info: { role: req.user.role, isAdmin, query_used: query },
             data: transactions,
         });
     } catch (error) {
+        const errMsg = `ERROR in getAllTransactions: ${error.message}`;
+        console.error(errMsg);
+        logToFile(errMsg);
         next(error);
     }
 };

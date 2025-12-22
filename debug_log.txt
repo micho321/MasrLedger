@@ -1,0 +1,537 @@
+[2025-12-21T08:28:53.953Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:28:53.955Z] Final Query: {}
+[2025-12-21T08:28:54.069Z] Found 3 transactions
+[2025-12-21T08:28:54.159Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:28:54.159Z] Final Query: {}
+[2025-12-21T08:28:54.267Z] Found 3 transactions
+[2025-12-21T08:28:58.895Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:28:58.895Z] Final Query: {}
+[2025-12-21T08:28:59.002Z] Found 3 transactions
+[2025-12-21T08:29:03.916Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:29:03.916Z] Final Query: {}
+[2025-12-21T08:29:04.015Z] Found 3 transactions
+[2025-12-21T08:29:09.729Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:29:09.729Z] Final Query: {}
+[2025-12-21T08:29:09.829Z] Found 3 transactions
+[2025-12-21T08:29:09.899Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:29:09.900Z] Final Query: {}
+[2025-12-21T08:29:10.009Z] Found 3 transactions
+[2025-12-21T08:29:14.723Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:29:14.724Z] Final Query: {}
+[2025-12-21T08:29:14.815Z] Found 3 transactions
+[2025-12-21T08:29:36.332Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:36.333Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:36.391Z] Found 2 transactions
+[2025-12-21T08:29:36.459Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:36.460Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:36.511Z] Found 2 transactions
+[2025-12-21T08:29:40.162Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:40.162Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:40.211Z] Found 2 transactions
+[2025-12-21T08:29:40.304Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:40.304Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:29:40.353Z] Found 2 transactions
+[2025-12-21T08:30:44.152Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:30:44.152Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:30:44.198Z] Found 3 transactions
+[2025-12-21T08:30:44.312Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:30:44.312Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:30:44.361Z] Found 3 transactions
+[2025-12-21T08:30:58.711Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:30:58.713Z] Final Query: {}
+[2025-12-21T08:30:58.812Z] Found 4 transactions
+[2025-12-21T08:30:58.889Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:30:58.890Z] Final Query: {}
+[2025-12-21T08:30:58.988Z] Found 4 transactions
+[2025-12-21T08:31:13.254Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:13.255Z] Final Query: {}
+[2025-12-21T08:31:13.346Z] Found 4 transactions
+[2025-12-21T08:31:13.410Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:13.410Z] Final Query: {}
+[2025-12-21T08:31:13.503Z] Found 4 transactions
+[2025-12-21T08:31:18.250Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:18.250Z] Final Query: {}
+[2025-12-21T08:31:18.341Z] Found 4 transactions
+[2025-12-21T08:31:23.253Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:23.254Z] Final Query: {}
+[2025-12-21T08:31:23.361Z] Found 4 transactions
+[2025-12-21T08:31:28.242Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:28.243Z] Final Query: {}
+[2025-12-21T08:31:28.334Z] Found 4 transactions
+[2025-12-21T08:31:35.764Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:35.764Z] Final Query: {}
+[2025-12-21T08:31:35.856Z] Found 4 transactions
+[2025-12-21T08:31:35.907Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:35.908Z] Final Query: {}
+[2025-12-21T08:31:35.999Z] Found 4 transactions
+[2025-12-21T08:31:40.776Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:40.777Z] Final Query: {}
+[2025-12-21T08:31:40.877Z] Found 4 transactions
+[2025-12-21T08:31:46.392Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:46.393Z] Final Query: {}
+[2025-12-21T08:31:46.485Z] Found 4 transactions
+[2025-12-21T08:31:51.397Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:51.398Z] Final Query: {}
+[2025-12-21T08:31:51.516Z] Found 4 transactions
+[2025-12-21T08:31:56.400Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:31:56.401Z] Final Query: {}
+[2025-12-21T08:31:56.493Z] Found 4 transactions
+[2025-12-21T08:32:01.386Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:01.387Z] Final Query: {}
+[2025-12-21T08:32:01.480Z] Found 4 transactions
+[2025-12-21T08:32:06.395Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:06.395Z] Final Query: {}
+[2025-12-21T08:32:06.487Z] Found 4 transactions
+[2025-12-21T08:32:11.396Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:11.396Z] Final Query: {}
+[2025-12-21T08:32:11.488Z] Found 4 transactions
+[2025-12-21T08:32:16.390Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:16.390Z] Final Query: {}
+[2025-12-21T08:32:16.481Z] Found 4 transactions
+[2025-12-21T08:32:21.400Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:21.400Z] Final Query: {}
+[2025-12-21T08:32:21.492Z] Found 4 transactions
+[2025-12-21T08:32:26.388Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:26.389Z] Final Query: {}
+[2025-12-21T08:32:26.499Z] Found 4 transactions
+[2025-12-21T08:32:31.398Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:31.398Z] Final Query: {}
+[2025-12-21T08:32:31.490Z] Found 4 transactions
+[2025-12-21T08:32:36.412Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:36.412Z] Final Query: {}
+[2025-12-21T08:32:36.505Z] Found 4 transactions
+[2025-12-21T08:32:41.410Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:32:41.410Z] Final Query: {}
+[2025-12-21T08:32:41.513Z] Found 4 transactions
+[2025-12-21T08:33:24.399Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:24.399Z] Final Query: {}
+[2025-12-21T08:33:24.496Z] Found 4 transactions
+[2025-12-21T08:33:28.305Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:28.305Z] Final Query: {}
+[2025-12-21T08:33:28.397Z] Found 4 transactions
+[2025-12-21T08:33:30.773Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:30.773Z] Final Query: {}
+[2025-12-21T08:33:30.864Z] Found 4 transactions
+[2025-12-21T08:33:35.772Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:35.773Z] Final Query: {}
+[2025-12-21T08:33:35.866Z] Found 4 transactions
+[2025-12-21T08:33:41.405Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:41.406Z] Final Query: {}
+[2025-12-21T08:33:41.501Z] Found 4 transactions
+[2025-12-21T08:33:46.422Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:46.422Z] Final Query: {}
+[2025-12-21T08:33:46.516Z] Found 4 transactions
+[2025-12-21T08:33:51.408Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:51.408Z] Final Query: {}
+[2025-12-21T08:33:51.500Z] Found 4 transactions
+[2025-12-21T08:33:56.391Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:33:56.391Z] Final Query: {}
+[2025-12-21T08:33:56.493Z] Found 4 transactions
+[2025-12-21T08:34:01.400Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:01.401Z] Final Query: {}
+[2025-12-21T08:34:01.511Z] Found 4 transactions
+[2025-12-21T08:34:06.394Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:06.394Z] Final Query: {}
+[2025-12-21T08:34:06.486Z] Found 4 transactions
+[2025-12-21T08:34:11.402Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:11.404Z] Final Query: {}
+[2025-12-21T08:34:11.517Z] Found 4 transactions
+[2025-12-21T08:34:16.391Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:16.391Z] Final Query: {}
+[2025-12-21T08:34:16.483Z] Found 4 transactions
+[2025-12-21T08:34:21.403Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:21.404Z] Final Query: {}
+[2025-12-21T08:34:21.495Z] Found 4 transactions
+[2025-12-21T08:34:26.402Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:26.403Z] Final Query: {}
+[2025-12-21T08:34:26.495Z] Found 4 transactions
+[2025-12-21T08:34:31.408Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:31.408Z] Final Query: {}
+[2025-12-21T08:34:31.501Z] Found 4 transactions
+[2025-12-21T08:34:36.405Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:34:36.405Z] Final Query: {}
+[2025-12-21T08:34:36.496Z] Found 4 transactions
+[2025-12-21T08:36:15.293Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:36:15.294Z] Final Query: {}
+[2025-12-21T08:36:15.391Z] Found 4 transactions
+[2025-12-21T08:36:15.450Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:36:15.451Z] Final Query: {}
+[2025-12-21T08:36:15.550Z] Found 4 transactions
+[2025-12-21T08:36:20.199Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:36:20.199Z] Final Query: {}
+[2025-12-21T08:36:20.306Z] Found 4 transactions
+[2025-12-21T08:37:33.331Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:37:33.331Z] Final Query: {}
+[2025-12-21T08:37:33.428Z] Found 4 transactions
+[2025-12-21T08:37:33.499Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:37:33.499Z] Final Query: {}
+[2025-12-21T08:37:33.619Z] Found 4 transactions
+[2025-12-21T08:38:09.028Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:09.029Z] Final Query: {}
+[2025-12-21T08:38:09.128Z] Found 4 transactions
+[2025-12-21T08:38:09.185Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:09.186Z] Final Query: {}
+[2025-12-21T08:38:09.284Z] Found 4 transactions
+[2025-12-21T08:38:09.418Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:09.418Z] Final Query: {}
+[2025-12-21T08:38:09.516Z] Found 4 transactions
+[2025-12-21T08:38:09.630Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:09.630Z] Final Query: {}
+[2025-12-21T08:38:09.728Z] Found 4 transactions
+[2025-12-21T08:38:15.406Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:15.406Z] Final Query: {}
+[2025-12-21T08:38:15.504Z] Found 4 transactions
+[2025-12-21T08:38:20.402Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:20.402Z] Final Query: {}
+[2025-12-21T08:38:20.500Z] Found 4 transactions
+[2025-12-21T08:38:25.505Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:25.506Z] Final Query: {}
+[2025-12-21T08:38:25.607Z] Found 4 transactions
+[2025-12-21T08:38:30.399Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:30.400Z] Final Query: {}
+[2025-12-21T08:38:30.498Z] Found 4 transactions
+[2025-12-21T08:38:32.556Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:32.557Z] Final Query: {}
+[2025-12-21T08:38:32.661Z] Found 4 transactions
+[2025-12-21T08:38:33.208Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:33.209Z] Final Query: {}
+[2025-12-21T08:38:33.308Z] Found 4 transactions
+[2025-12-21T08:38:37.329Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:37.329Z] Final Query: {}
+[2025-12-21T08:38:37.440Z] Found 4 transactions
+[2025-12-21T08:38:37.548Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:37.548Z] Final Query: {}
+[2025-12-21T08:38:37.656Z] Found 4 transactions
+[2025-12-21T08:38:42.701Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:42.715Z] Final Query: {}
+[2025-12-21T08:38:42.813Z] Found 4 transactions
+[2025-12-21T08:38:46.373Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:46.374Z] Final Query: {}
+[2025-12-21T08:38:46.486Z] Found 4 transactions
+[2025-12-21T08:38:47.603Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:47.604Z] Final Query: {}
+[2025-12-21T08:38:47.718Z] Found 4 transactions
+[2025-12-21T08:38:52.497Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:52.498Z] Final Query: {}
+[2025-12-21T08:38:52.598Z] Found 4 transactions
+[2025-12-21T08:38:57.595Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:38:57.596Z] Final Query: {}
+[2025-12-21T08:38:57.696Z] Found 4 transactions
+[2025-12-21T08:39:02.527Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:02.527Z] Final Query: {}
+[2025-12-21T08:39:02.628Z] Found 4 transactions
+[2025-12-21T08:39:07.502Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:07.503Z] Final Query: {}
+[2025-12-21T08:39:07.606Z] Found 4 transactions
+[2025-12-21T08:39:12.022Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:12.022Z] Final Query: {}
+[2025-12-21T08:39:12.206Z] Found 4 transactions
+[2025-12-21T08:39:12.753Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:12.754Z] Final Query: {}
+[2025-12-21T08:39:12.891Z] Found 4 transactions
+[2025-12-21T08:39:16.642Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:16.643Z] Final Query: {}
+[2025-12-21T08:39:16.749Z] Found 4 transactions
+[2025-12-21T08:39:17.527Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:17.527Z] Final Query: {}
+[2025-12-21T08:39:17.632Z] Found 4 transactions
+[2025-12-21T08:39:22.095Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:22.096Z] Final Query: {}
+[2025-12-21T08:39:22.196Z] Found 4 transactions
+[2025-12-21T08:39:22.643Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:22.644Z] Final Query: {}
+[2025-12-21T08:39:22.743Z] Found 4 transactions
+[2025-12-21T08:39:27.589Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:27.589Z] Final Query: {}
+[2025-12-21T08:39:27.693Z] Found 4 transactions
+[2025-12-21T08:39:30.464Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:30.465Z] Final Query: {}
+[2025-12-21T08:39:30.570Z] Found 4 transactions
+[2025-12-21T08:39:32.709Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:32.710Z] Final Query: {}
+[2025-12-21T08:39:32.823Z] Found 4 transactions
+[2025-12-21T08:39:35.514Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:35.515Z] Final Query: {}
+[2025-12-21T08:39:35.615Z] Found 4 transactions
+[2025-12-21T08:39:37.536Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:37.536Z] Final Query: {}
+[2025-12-21T08:39:37.636Z] Found 4 transactions
+[2025-12-21T08:39:40.417Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:40.417Z] Final Query: {}
+[2025-12-21T08:39:40.519Z] Found 4 transactions
+[2025-12-21T08:39:42.519Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:42.519Z] Final Query: {}
+[2025-12-21T08:39:42.619Z] Found 4 transactions
+[2025-12-21T08:39:47.509Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:47.509Z] Final Query: {}
+[2025-12-21T08:39:47.609Z] Found 4 transactions
+[2025-12-21T08:39:52.595Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:52.596Z] Final Query: {}
+[2025-12-21T08:39:52.694Z] Found 4 transactions
+[2025-12-21T08:39:57.517Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:39:57.518Z] Final Query: {}
+[2025-12-21T08:39:57.617Z] Found 4 transactions
+[2025-12-21T08:40:02.556Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:02.557Z] Final Query: {}
+[2025-12-21T08:40:02.659Z] Found 4 transactions
+[2025-12-21T08:40:07.601Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:07.602Z] Final Query: {}
+[2025-12-21T08:40:07.701Z] Found 4 transactions
+[2025-12-21T08:40:12.532Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:12.532Z] Final Query: {}
+[2025-12-21T08:40:12.632Z] Found 4 transactions
+[2025-12-21T08:40:17.493Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:17.494Z] Final Query: {}
+[2025-12-21T08:40:17.608Z] Found 4 transactions
+[2025-12-21T08:40:20.226Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:20.227Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:20.327Z] Found 2 transactions
+[2025-12-21T08:40:25.232Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:25.233Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:25.332Z] Found 2 transactions
+[2025-12-21T08:40:30.186Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:30.187Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:30.288Z] Found 2 transactions
+[2025-12-21T08:40:35.169Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:35.169Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:35.267Z] Found 2 transactions
+[2025-12-21T08:40:40.179Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:40.180Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:40.337Z] Found 2 transactions
+[2025-12-21T08:40:45.160Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:45.161Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:45.265Z] Found 2 transactions
+[2025-12-21T08:40:48.190Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:48.190Z] Final Query: {}
+[2025-12-21T08:40:48.294Z] Found 4 transactions
+[2025-12-21T08:40:49.421Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:49.422Z] Final Query: {}
+[2025-12-21T08:40:49.525Z] Found 4 transactions
+[2025-12-21T08:40:50.162Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:50.162Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:50.262Z] Found 2 transactions
+[2025-12-21T08:40:51.327Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:51.327Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:51.426Z] Found 2 transactions
+[2025-12-21T08:40:55.214Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:55.215Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:55.317Z] Found 2 transactions
+[2025-12-21T08:40:56.330Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:40:56.330Z] Final Query: {"type":"income"}
+[2025-12-21T08:40:56.432Z] Found 2 transactions
+[2025-12-21T08:41:00.164Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:00.164Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:00.269Z] Found 2 transactions
+[2025-12-21T08:41:05.163Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:05.163Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:05.261Z] Found 2 transactions
+[2025-12-21T08:41:10.246Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:10.246Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:10.343Z] Found 2 transactions
+[2025-12-21T08:41:15.172Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:15.173Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:15.270Z] Found 2 transactions
+[2025-12-21T08:41:16.376Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:16.377Z] Final Query: {}
+[2025-12-21T08:41:16.498Z] Found 4 transactions
+[2025-12-21T08:41:16.561Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:16.562Z] Final Query: {}
+[2025-12-21T08:41:16.690Z] Found 4 transactions
+[2025-12-21T08:41:20.160Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:20.161Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:20.257Z] Found 2 transactions
+[2025-12-21T08:41:21.300Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:21.300Z] Final Query: {}
+[2025-12-21T08:41:21.397Z] Found 4 transactions
+[2025-12-21T08:41:25.159Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:25.159Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:25.256Z] Found 2 transactions
+[2025-12-21T08:41:30.165Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:30.165Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:30.262Z] Found 2 transactions
+[2025-12-21T08:41:35.161Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:35.161Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:35.257Z] Found 2 transactions
+[2025-12-21T08:41:40.179Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:40.179Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:40.277Z] Found 2 transactions
+[2025-12-21T08:41:45.162Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:45.162Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:45.258Z] Found 2 transactions
+[2025-12-21T08:41:50.168Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:50.168Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:50.266Z] Found 2 transactions
+[2025-12-21T08:41:55.165Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:41:55.165Z] Final Query: {"type":"income"}
+[2025-12-21T08:41:55.265Z] Found 2 transactions
+[2025-12-21T08:42:00.164Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:00.164Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:00.293Z] Found 2 transactions
+[2025-12-21T08:42:05.167Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:05.167Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:05.264Z] Found 2 transactions
+[2025-12-21T08:42:10.165Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:10.166Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:10.260Z] Found 2 transactions
+[2025-12-21T08:42:15.156Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:15.156Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:15.254Z] Found 2 transactions
+[2025-12-21T08:42:20.177Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:20.177Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:20.280Z] Found 2 transactions
+[2025-12-21T08:42:25.174Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:25.174Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:25.271Z] Found 2 transactions
+[2025-12-21T08:42:30.185Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:30.186Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:30.284Z] Found 2 transactions
+[2025-12-21T08:42:35.189Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:35.190Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:35.306Z] Found 2 transactions
+[2025-12-21T08:42:40.186Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:40.187Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:40.286Z] Found 2 transactions
+[2025-12-21T08:42:45.163Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:45.165Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:45.271Z] Found 2 transactions
+[2025-12-21T08:42:50.162Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:50.164Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:50.277Z] Found 2 transactions
+[2025-12-21T08:42:55.194Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:42:55.195Z] Final Query: {"type":"income"}
+[2025-12-21T08:42:55.387Z] Found 2 transactions
+[2025-12-21T08:43:00.161Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:00.161Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:00.261Z] Found 2 transactions
+[2025-12-21T08:43:05.165Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:05.166Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:05.270Z] Found 2 transactions
+[2025-12-21T08:43:10.164Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:10.164Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:10.271Z] Found 2 transactions
+[2025-12-21T08:43:15.165Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:15.166Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:15.263Z] Found 2 transactions
+[2025-12-21T08:43:20.172Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:20.173Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:20.280Z] Found 2 transactions
+[2025-12-21T08:43:25.162Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:25.162Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:25.266Z] Found 2 transactions
+[2025-12-21T08:43:30.166Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:30.166Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:30.265Z] Found 2 transactions
+[2025-12-21T08:43:35.162Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:35.162Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:35.259Z] Found 2 transactions
+[2025-12-21T08:43:40.173Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:40.175Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:40.282Z] Found 2 transactions
+[2025-12-21T08:43:45.171Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:45.172Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:45.276Z] Found 2 transactions
+[2025-12-21T08:43:50.167Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:50.168Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:50.272Z] Found 2 transactions
+[2025-12-21T08:43:55.160Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:43:55.161Z] Final Query: {"type":"income"}
+[2025-12-21T08:43:55.257Z] Found 2 transactions
+[2025-12-21T08:44:00.170Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:44:00.171Z] Final Query: {"type":"income"}
+[2025-12-21T08:44:00.272Z] Found 2 transactions
+[2025-12-21T08:44:05.180Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:44:05.180Z] Final Query: {"type":"income"}
+[2025-12-21T08:44:05.278Z] Found 2 transactions
+[2025-12-21T08:44:10.170Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:44:10.171Z] Final Query: {"type":"income"}
+[2025-12-21T08:44:10.268Z] Found 2 transactions
+[2025-12-21T08:46:45.764Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:46:45.765Z] Final Query: {}
+[2025-12-21T08:46:45.855Z] Found 4 transactions
+[2025-12-21T08:46:45.910Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:46:45.911Z] Final Query: {}
+[2025-12-21T08:46:46.017Z] Found 4 transactions
+[2025-12-21T08:47:31.762Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:47:31.763Z] Final Query: {}
+[2025-12-21T08:47:31.856Z] Found 4 transactions
+[2025-12-21T08:47:31.911Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:47:31.912Z] Final Query: {}
+[2025-12-21T08:47:32.005Z] Found 4 transactions
+[2025-12-21T08:47:36.797Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:47:36.798Z] Final Query: {}
+[2025-12-21T08:47:36.894Z] Found 4 transactions
+[2025-12-21T08:47:41.795Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:47:41.795Z] Final Query: {}
+[2025-12-21T08:47:41.887Z] Found 4 transactions
+[2025-12-21T08:47:46.789Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:47:46.789Z] Final Query: {}
+[2025-12-21T08:47:46.896Z] Found 4 transactions
+[2025-12-21T08:47:51.786Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:47:51.787Z] Final Query: {}
+[2025-12-21T08:47:51.878Z] Found 4 transactions
+[2025-12-21T08:48:09.657Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:48:09.658Z] Final Query: {}
+[2025-12-21T08:48:09.798Z] Found 4 transactions
+[2025-12-21T08:48:09.865Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:48:09.867Z] Final Query: {}
+[2025-12-21T08:48:09.974Z] Found 4 transactions
+[2025-12-21T08:48:14.653Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:48:14.653Z] Final Query: {}
+[2025-12-21T08:48:14.750Z] Found 4 transactions
+[2025-12-21T08:49:57.167Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:49:57.168Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:49:57.214Z] Found 3 transactions
+[2025-12-21T08:49:57.272Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:49:57.272Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:49:57.319Z] Found 3 transactions
+[2025-12-21T08:50:19.562Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:19.563Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:19.611Z] Found 3 transactions
+[2025-12-21T08:50:19.694Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:19.694Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:19.742Z] Found 3 transactions
+[2025-12-21T08:50:48.313Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:48.313Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:48.364Z] Found 3 transactions
+[2025-12-21T08:50:48.433Z] GET /api/transactions - user: Michel Noah, role: user, isAdmin: false, query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:48.434Z] Final Query: {"user":"694751aa446a775cfd942223"}
+[2025-12-21T08:50:48.482Z] Found 3 transactions
+[2025-12-21T08:52:06.053Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:52:06.054Z] Final Query: {}
+[2025-12-21T08:52:06.148Z] Found 4 transactions
+[2025-12-21T08:52:06.201Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:52:06.201Z] Final Query: {}
+[2025-12-21T08:52:06.292Z] Found 4 transactions
+[2025-12-21T08:52:07.950Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:52:07.951Z] Final Query: {}
+[2025-12-21T08:52:08.056Z] Found 4 transactions
+[2025-12-21T08:52:08.117Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:52:08.117Z] Final Query: {}
+[2025-12-21T08:52:08.212Z] Found 4 transactions
+[2025-12-21T08:53:28.734Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:53:28.735Z] Final Query: {}
+[2025-12-21T08:53:28.832Z] Found 4 transactions
+[2025-12-21T08:53:28.905Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:53:28.906Z] Final Query: {}
+[2025-12-21T08:53:28.999Z] Found 4 transactions
+[2025-12-21T08:55:24.348Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:55:24.349Z] Final Query: {}
+[2025-12-21T08:55:24.449Z] Found 4 transactions
+[2025-12-21T08:55:24.539Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:55:24.539Z] Final Query: {}
+[2025-12-21T08:55:24.643Z] Found 4 transactions
+[2025-12-21T08:55:29.361Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:55:29.361Z] Final Query: {}
+[2025-12-21T08:55:29.454Z] Found 4 transactions
+[2025-12-21T08:55:34.347Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:55:34.348Z] Final Query: {}
+[2025-12-21T08:55:34.445Z] Found 4 transactions
+[2025-12-21T08:55:49.816Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:55:49.816Z] Final Query: {}
+[2025-12-21T08:55:49.907Z] Found 4 transactions
+[2025-12-21T08:55:49.960Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:55:49.961Z] Final Query: {}
+[2025-12-21T08:55:50.070Z] Found 4 transactions
+[2025-12-21T08:55:53.957Z] GET /api/transactions - user: Admin, role: admin, isAdmin: true, query: {}
+[2025-12-21T08:55:53.958Z] Final Query: {"type":"income"}
+[2025-12-21T08:55:54.048Z] Found 2 transactions
